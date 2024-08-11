@@ -13,7 +13,7 @@ body {
 /* header container starts */
 .header-container {
   width: 100%;
-  height: 919px;
+  height: 708px;
   border: 2px solid red;
   background-image: url("../assets/hero-bg.png");
   background-position: center;
@@ -29,11 +29,10 @@ body {
   margin: 24px 0px;
   color: white;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
 }
 
 .header__contents-caption {
@@ -84,15 +83,15 @@ body {
 /* main container start */
 
 /* favorite food section */
-.favorite-food-section {
-  width: 1320px;
-  height: 872px;
+.food-section {
+  width: 80%;
+  height: 672px;
   margin: 0 auto;
-  margin-top: 240px;
+  margin-top: 100px;
 }
 
-.favorite-food-text-contents {
-  width: 691px;
+.food__content {
+  width: 60%;
   height: 173px;
   margin: 0 auto;
   display: flex;
@@ -100,79 +99,82 @@ body {
   align-items: center;
 }
 
-.favorite-food-text-contents p {
-  opacity: 0.6;
+.food__description {
   color: rgb(16, 16, 16);
-  font-size: 24px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0%;
   text-align: center;
+  opacity: 0.6;
+  margin-bottom: 10px;
 }
 
-.favorite-food-text-contents h2 {
-  margin: 16px 0px;
+.food__title {
   color: rgb(16, 16, 16);
-  font-family: Work Sans;
-  font-size: 48px;
+  font-size: 2.9rem;
   font-weight: 700;
   line-height: 64px;
   letter-spacing: 0%;
   text-align: center;
 }
 
-.favorite-food-item-contents {
-  width: 1320px;
-  height: 522px;
+.food-items {
+  width: 805px;
+  height: 402px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
   gap: 24px;
 }
 
-.item {
+.food__item {
   position: relative;
-}
-
-.item img {
   width: 424px;
   height: 283px;
-  margin: 32px 0px;
+  height: auto;
 }
 
-.item .buy-btn {
-  padding: 14px 32px 14px 32px;
-  margin-left: 115px;
+.food__item img {
+  width: 100%;
+  height: auto;
+}
+
+.buy-btn {
+  padding: 8.5px 19.5px;
+  margin-top: 15px;
+  margin-left: 26%;
   border-radius: 8px;
+  border: none;
   background: rgba(82, 195, 3, 0.15);
   color: rgb(16, 16, 16);
-  font-family: Work Sans;
-  font-size: 24px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 28px;
-  letter-spacing: 0%;
   text-align: center;
   cursor: pointer;
 }
 
-.item h2 {
-  margin: 24px 0px;
+.food__item-title {
+  margin-top: 20px;
   color: rgb(16, 16, 16);
-  font-family: Work Sans;
-  font-size: 40px;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 47px;
   letter-spacing: 0%;
   text-align: center;
 }
 
-.item p {
+.food__item-description {
   margin: 24px 0px;
+  margin-top: 15px;
   opacity: 0.7;
   color: rgb(16, 16, 16);
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 0.9rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0%;
   text-align: center;
 }
@@ -183,24 +185,20 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .button-item button {
-  width: 100%;
-  height: 100%;
-  padding: 21px 32px 21px 32px;
-  margin: 100px 0px;
+  width: 180px;
+  height: 50px;
+  padding: 13px 25px;
+  margin-top: 20px;
   border-radius: 8px;
   border: none;
-
   background: rgb(82, 195, 3);
   color: rgb(255, 255, 255);
-  font-family: Work Sans;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0%;
+  line-height: 23px;;
   text-align: center;
   cursor: pointer;
 }
