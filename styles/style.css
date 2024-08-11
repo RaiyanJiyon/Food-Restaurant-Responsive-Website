@@ -292,3 +292,56 @@ body {
   color: #008dfe;
 }
 /* good food section end */
+
+/* card section start */
+.card-section {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: -50px;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-btn {
+  margin-top: 15px;
+  margin-left: 30%;
+}
+
+.card__title {
+  color: rgb(16, 16, 16);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card__description {
+  color: rgb(16, 16, 16);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.watch-btn {
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* card section end */
