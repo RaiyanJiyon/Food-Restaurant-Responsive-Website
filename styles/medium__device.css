@@ -192,3 +192,51 @@
   font-size: 1.8rem;
 }
 /* good food section end */
+
+/* card section start */
+.card-section {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+}
+
+.card__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-btn {
+  width: 70%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.card__title {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 35px;
+  margin-top: 15px;
+}
+
+.card__description {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.watch-btn {
+  width: 80%;
+}
+/* card section end */
