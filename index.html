@@ -11,6 +11,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
+    <link
+    rel="stylesheet"
+    media="screen and (max-width: 576px)"
+    href="styles/small__device.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 576px) and (max-width: 992px)"
+    href="styles/medium__device.css"
+  />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
@@ -25,7 +35,7 @@
         </div>
     </header>
     <main class="main-container">
-        <section class="food-section">
+        <section id="display-hide" class="food-section">
             <div class="food__content">
                 <p class="food__description">Favorite Brands</p>
                 <h2 class="food__title">Your Favorite Brands Food Are Now On Sale</h2>
@@ -56,7 +66,7 @@
 
         </section>
 
-        <section class="good-section">
+        <section id="display-hide" class="good-section">
             <div class="good__image">
                 <img src="assets/foods.png" alt="food">
             </div>
@@ -73,7 +83,7 @@
             </div>
         </section>
 
-        <section class="card-section">
+        <section id="display-hide" class="card-section">
             <div class="card__image">
                 <img src="assets/pizza.png" alt="">
             </div>
@@ -89,7 +99,7 @@
             <button class="btn watch-btn">Watch All Sells</button>
         </section>
     </main>
-    <footer class="footer-container">
+    <footer id="display-hide" class="footer-container">
         <div class="footer__content">
             <h1 class="footer__content-title">We always make sure to provide you with good food</h1>
             <p class="footer__content-description">Don’t miss a thing! Subscribe to our newsletter</p>

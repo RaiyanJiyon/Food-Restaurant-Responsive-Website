@@ -1,0 +1,51 @@
+/* body */
+/* body {
+} */
+
+/* header container starts */
+.header-container {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.header__contents {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.header__contents-caption {
+  width: 90%;
+  height: auto;
+  font-size: 1rem;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.header__contents-title {
+  width: 90%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.header__contents-description {
+  width: 90%;
+  height: auto;
+  font-size: 0.7rem;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.btn {
+  width: 80%;
+  height: 51px;
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 15px;
+  margin-bottom: 35px;
+}
+/* header container ends */
