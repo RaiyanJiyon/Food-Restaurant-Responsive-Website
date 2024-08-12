@@ -129,3 +129,66 @@
   line-height: 20px;
 }
 /* favorite food section end */
+
+/* good food section start */
+.good-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.good__image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 150px;
+}
+
+.good__image img {
+  width: 100%;
+  height: auto;
+}
+
+.good__content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.good__content-title {
+  width: 90%;
+  height: auto;
+  font-size: 2.5rem;
+  line-height: 50px;
+}
+
+.good__content-description {
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  line-height: 20px;
+  text-align: center;
+}
+
+.follow__btn {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  color: rgb(16, 16, 16);
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.good__icons {
+  margin-top: 20px;
+  font-size: 1.8rem;
+}
+/* good food section end */
